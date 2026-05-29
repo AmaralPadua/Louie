@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+}
+
+header {
+    width: 20%;
+    height: 100vh;
+    background: #ffd3d3;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+main {
+    height: 100vh;
+    background: #ffffff;
+    position: fixed;
+    background-color: #d3d0d0;
+    width: 80%;
+    margin-left: 20%;
+    padding: 0px;
+    overflow-y: auto;
+}
+
+.Logo {
+    margin-top: 50px;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin-left: 30%;
+    top: 60px;
+}
+
+.louise {
+    display: block;
+    padding-left: 25%;
+    margin-top: 10px;
+}
+
+.Headlink {
+    display: block;
+    margin-left: 46%;
+    font-size: 25px;
+    margin-top: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.Headlink:hover {
+    text-decoration: underline 2px;
+    text-underline-offset: 7px;
+}
+
+.new {
+    margin-top: 110%;
+    font-family: 'poppins';
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 43%;
+}
+
+.email {
+    margin-left: 35%;
+    height: 40px;
+    width: 200px;
+    padding-left: 20px;
+    border: solid 1px rgb(214, 214, 191);
+    margin-top: 3%;
+    font-family: 'montserrat';
+}
+
+#Home {
+    display: inline-block;
+    margin-top: 45px;
+    text-decoration: underline 3px;
+    text-underline-offset: 5.5px;
+}
+
+#Home:hover {
+    text-decoration: underline 3px;
+    text-underline-offset: 6px;
+}
+
+#Collection {
+    display: inline-block;
+    margin-top: 7%;
+    margin-left: 40.5%;
+}
+
+#Me {
+    display: inline-block;
+    margin-top: 7%;
+    margin-left: 40%;
+}
+
+#Services {
+    display: inline-block;
+    margin-top: 7%;
+    margin-left: 36%;
+}
+
+#Blog {
+    display: inline-block;
+    margin-top: 7%;
+    margin-left: 47.5%;
+}
+
+#Contact {
+    display: inline-block;
+    margin-top: 7%;
+    margin-left: 43.5%;
+}
+
+.Smith {
+    text-align: left;
+    padding-left: 70vh;
+    font-size: 40px;
+    margin-top: -70vh;
+    color: #a19f9f;
+}
+
+.author {
+    display: flex;
+    padding: 0%;
+    margin: 0%;
+    height: 100%;
+}
+
+.im {
+    padding-left: 70vh;
+    font-size: 20px;
+    margin-top: -3.5vh;
+    color: #525151;
+}
+
+h1 {
+    padding-left: 70vh;
+    margin-top: 20px;
+    font-size: 40px;
+    color: black;
+}
+
+.p {
+    padding-top: 40px;
+    padding-left: 680px;
+    width: 1300px;
+    line-height: 25px;
+}
+
+.p1 {
+    padding-top: 40px;
+    padding-left: 680px;
+}
+
+.color {
+    color: #ccb78f;
+}
+
+.twitter {
+    padding-left: 70vh;
+    padding-top: 40px;
+}
+
+#espcer {
+    padding-left: 20px;
+}
+.Follow {
+    width: 100%;
+    background-color: #ffffff;
+    margin-top: 220px;
+    padding: 60px 0;
+    text-align: center;
+    display: block;
+    clear: both;
+}
+
+.Follow p {
+    font-size: 14px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.gradeinsta {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+    justify-content: center;
+}
+
+.gradeinsta img {
+    width: 15%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+
+.rodape {
+    background-color: #1a1a1a; 
+    color: #808080;            
+    padding: 60px 30px 30px 30px;
+    font-size: 14px;
+    width: 100%;
+}
+
+
+.colunasrodape {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 1100px;
+    margin: 0 auto; 
+}
+
+.colunarodape {
+    flex: 1;
+}
+
+.colunarodape h3 {
+    color: #ffffff; 
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+
+.gradefotos {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 4px;
+    width: 220px; 
+}
+
+.gradefotos img {
+    width: 100%;
+    aspect-ratio: 1 / 1; 
+    object-fit: cover;
+}
+
+.listaarquivos {
+    list-style: none;
+}
+
+.listaarquivos li {
+    display: flex;
+    justify-content: space-between; 
+    padding: 10px 0;
+    border-bottom: 1px solid #262626; 
+}
+
+.listacontato {
+    list-style: none;
+}
+
+.listacontato li {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.listacontato .icone {
+    color: #ffffff;
+}
+
+.direitos {
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 20px;
+    border-top: 1px solid #262626;
+    font-size: 12px;
+}

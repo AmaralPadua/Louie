@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+}
+
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+}
+
+#Collection {
+    text-decoration: underline 2px;
+}
+
+.Logo {
+    margin-top: 40px;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin-left: 100px;
+    object-fit: cover;
+}
+
+.louise {
+    margin-left: 90px;
+    margin-top: 13px;
+    margin-bottom: 40px;
+}
+
+.Headlink {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 16px;
+    align-items: center;
+    list-style: none;
+}
+
+.Headlink a {
+    display: inline-block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #000000;
+}
+
+header {
+    width: 400px;
+    min-height: 100vh;
+    background-color:white;
+}
+
+.head {
+    height: 225px;
+    width: 100%;
+    background-color: rgb(255, 220, 177);
+}
+
+.yeah {
+    font-size: 18px;
+    padding-left: 350px;
+    list-style: none;
+}
+
+.li01 {
+    display: inline-block;
+    padding-top: 70px;
+    text-decoration: underline 2px;
+}
+
+#Homeid {
+    padding-right: 20px;
+    text-decoration: underline 2px;
+    color: rgb(77, 29, 20);
+}
+
+.Mycollec {
+    font-size: 50px;
+    padding-top: 20px;
+    padding-left: 350px;
+}
+
+
+.allimgs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 15px;
+    width: 100%;
+}
+
+.imgs {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3 / 2; 
+    object-fit: cover;   
+    display: block;
+}
+
+
+.rodape {
+    background-color: #000000; 
+    color: #808080;            
+    padding: 60px 30px 30px 30px;
+    font-size: 14px;
+    width: 100%;
+}
+
+
+.colunasrodape {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 1100px;
+    margin: 0 auto; 
+}
+
+.colunarodape {
+    flex: 1;
+}
+
+.colunarodape h3 {
+    color: #ffffff; 
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+
+.gradefotos {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 4px;
+    width: 220px; 
+}
+
+.gradefotos img {
+    width: 100%;
+    aspect-ratio: 1 / 1; 
+    object-fit: cover;
+}
+
+.listaarquivos {
+    list-style: none;
+}
+
+.listaarquivos li {
+    display: flex;
+    justify-content: space-between; 
+    padding: 10px 0;
+    border-bottom: 1px solid #262626; 
+}
+
+.listacontato {
+    list-style: none;
+}
+
+.listacontato li {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.listacontato .icone {
+    color: #ffffff;
+}
+
+.direitos {
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 20px;
+    border-top: 1px solid #262626;
+    font-size: 12px;
+}
